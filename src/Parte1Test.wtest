@@ -62,37 +62,3 @@ describe "Cervezas, jarras y personas"{
 }
 
 
-
-/*  
-import Formacion.*
-import Deposito.*
-import Locomotora.*
-import Vagones.*
-
-describe "Primera parte"{
-	var vagon = new VagonPasajeros(largo = 10, ancho = 4, tieneBanios = true, estaOrdenado = true)
-	var vagon1 = new VagonPasajeros(largo = 7, ancho = 2, tieneBanios = false, estaOrdenado = false)
-	var vagon2 = new VagonDeCarga(cargaMaximaIdeal = 6800, maderasSueltas = 5)
-	var vagon3 = new VagonDormitorio(cantidadCompartimientos = 8, cantidadDeCamasEnCompartimiento = 3)
-	var formacion1 = new Formacion()
-	
-	var vagon4 = new VagonDeCarga(cargaMaximaIdeal = 8000, maderasSueltas = 1)
-	var vagon5 = new VagonDormitorio(cantidadCompartimientos = 15, cantidadDeCamasEnCompartimiento = 4)
-	var formacion2 = new Formacion()
-	
-	fixture{
-		formacion1.agregarAFormacion(vagon)
-		formacion1.agregarAFormacion(vagon1)
-		formacion1.agregarAFormacion(vagon2)
-		formacion1.agregarAFormacion(vagon3)
-		
-		formacion2.agregarAFormacion(vagon4)
-		formacion2.agregarAFormacion(vagon5)
-	}
-	
-	test "Primera Formacion, cantidad pasajeros"{
-		assert.equals(100,vagon.cantidadDePasajeros())
-		assert.equals(41,vagon1.cantidadDePasajeros())
-		assert.equals(0,vagon2.cantidadDePasajeros())
-		assert.equals(24,vagon3.cantidadDePasajeros())
-	} */
