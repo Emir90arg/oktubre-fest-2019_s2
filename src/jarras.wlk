@@ -4,6 +4,6 @@ class Jarra {
 	var property marca
 	
 	method contenidoAlchol(){
-		return capacidad * (marca.graduacionAlcoholica()*0.1)
+		return capacidad * (marca.graduacionAlcoholica()*0.01)
 	}
 }
